@@ -56,7 +56,6 @@ function Transactions() {
           </thead>
           <tbody className="divide-y divide-slate-50">
             {filteredTransactions.map((t) => {
-              // Determine if it's income based on type or amount
               const isIncome = t.type === 'income' || t.amount > 0;
 
               return (
@@ -65,7 +64,7 @@ function Transactions() {
                   className="group hover:bg-slate-50/50 transition-colors"
                 >
                   <td className="p-4 text-sm text-slate-500 font-medium">
-                    {/* Fallback to created_at if date property is empty */}
+
                     {t.date || (t.created_at ? new Date(t.created_at).toLocaleDateString() : "No Date")}
                   </td>
                   <td className="p-4">
@@ -76,7 +75,6 @@ function Transactions() {
                           : "bg-rose-50 text-rose-600"
                       }`}
                     >
-                      {/* Ensure we show a name even if category is null */}
                       {t.category || "General"}
                     </span>
                   </td>
