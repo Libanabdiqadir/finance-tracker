@@ -25,7 +25,3 @@ A full-stack finance dashboard built with **React** and **Supabase** that helps 
 * **Charts**: Chart.js / React-Chartjs-2
 * **Backend & Auth**: Supabase
 * **State Management**: React Context API & TanStack Query
-
-   ```bash
-   git clone [https://github.com/Libanabdiqadir/finance-tracker.git](https://github.com/Libanabdiqadir/finance-tracker.git)
-   cd finance-tracker
