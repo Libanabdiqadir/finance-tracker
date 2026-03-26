@@ -1,16 +1,31 @@
-# React + Vite
+# 💸 FinanceFlow | Modern Personal Finance Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, full-stack financial management dashboard built to help users take control of their spending and income in real-time.
 
-Currently, two official plugins are available:
+<img width="1823" height="869" alt="image" src="https://github.com/user-attachments/assets/1844fbdc-3e38-46c7-aa99-69b62964caf6" />
+<img width="1794" height="857" alt="image" src="https://github.com/user-attachments/assets/dc1322e4-d182-4fb7-b951-c726fc59039e" />
+<img width="1735" height="826" alt="image" src="https://github.com/user-attachments/assets/253f73d1-0c25-4db3-9df6-a2cd2e7d664b" />
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+## ✨ Features
+# Personal Finance Tracker
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+A full-stack finance dashboard built with **React** and **Supabase** that helps users track income, expenses, and visualizes cash flow trends.
+
+## Features
+* **Real-time Dashboard**: Overview of total income, expenses, and net balance.
+* **Transaction Management**: Add and delete income or expense entries with categories.
+* **Data Visualization**: Doughnut charts for category breakdowns and line graphs for monthly trends.
+* **Secure Auth**: User authentication powered by Supabase.
+
+## 🛠️ Tech Stack
+* **Frontend**: React.js, Vite, TailwindCSS
+* **Charts**: Chart.js / React-Chartjs-2
+* **Backend & Auth**: Supabase
+* **State Management**: React Context API & TanStack Query
+
+   ```bash
+   git clone [https://github.com/Libanabdiqadir/finance-tracker.git](https://github.com/Libanabdiqadir/finance-tracker.git)
+   cd finance-tracker
